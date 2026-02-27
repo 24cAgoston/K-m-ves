@@ -7,15 +7,43 @@
     <title>KőművesGoston_K.F.T.</title>
 </head>
 <header>
-<nav class="navbar fixed-top bg-body-tertiary">
+<nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <img src="Logó.png" alt="Logó" height="100px">
-    <a class="navbar-brand">KőművesGoston KFT</a>
+    <span class="navbar-brand mb-0 h1">KőművesGoston_KFT</span>
   </div>
 </nav>
 </header>
 <body>
-
+    <div>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+        Popover on top
+    </div>
+<div class="row">
+  <div class="col-4">
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-5">Item 5</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1">Item 1</h4>
+      <p>5 csillag</p>
+      <h4 id="list-item-2">Item 2</h4>
+      <p>4csillag</p>
+      <h4 id="list-item-3">Item 3</h4>
+      <p>3csillag</p>
+      <h4 id="list-item-4">Item 4</h4>
+      <p>2 csillag</p>
+      <h4 id="list-item-5">Item 5</h4>
+      <p>1 csillag</p>
+    </div>
+  </div>
+</div>
 </body>
 <footer>
     <nav class="navbar fixed-bottom bg-body-tertiary">
