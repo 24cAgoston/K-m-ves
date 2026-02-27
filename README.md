@@ -1,2 +1,0 @@
-# K-m-ves
-kőműves
