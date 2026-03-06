@@ -1,0 +1,17 @@
+.kek1 {
+    background-color: #6ED1FF;
+}
+body {
+    background-color: #0069AB;
+}
+.review {
+    justify-content: space-evenly;
+}
+.reviewcard {
+    height: 22%;
+}
+.sarga {
+    background-color: #FFFBB5;
+    margin: auto;
+    margin-top: 2rem;
+}
