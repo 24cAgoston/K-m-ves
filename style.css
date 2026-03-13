@@ -7,11 +7,15 @@ body {
 .review {
     justify-content: space-evenly;
 }
-.reviewcard {
-    height: 22%;
-}
 .sarga {
     background-color: #FFFBB5;
     margin: auto;
     margin-top: 2rem;
+}
+.sor{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pfp{
+    
 }
